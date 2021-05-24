@@ -6,20 +6,22 @@
     width: 99vw;
     top: 0;
     margin: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     z-index: 100;
+    color: #212121;
 }
 
 .header__logo {
     height: 24px;
     width: 100px;
-    margin-top: 7px;
+    margin-top: 4px;
 }
 
 .header__center {
     flex: 1;
     display: flex;
     justify-content: center;
+    margin-left: 70px;
 }
 
 .header__center>p{
@@ -39,4 +41,5 @@
 
 .header__right>i {
     margin: 13px;
+    margin-right: 25px;
 }
