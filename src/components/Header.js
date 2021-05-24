@@ -21,6 +21,7 @@ const Header = () => {
             <div className="header__right">
                 <p>Shop</p>
                 <p>Tesla Account</p>
+                <i class="fas fa-bars"></i>
             </div>
             
         </div>  

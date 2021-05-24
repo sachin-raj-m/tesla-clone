@@ -36,3 +36,7 @@
 .header__right>p {
     margin: 10px;
 }
+
+.header__right>i {
+    margin: 13px;
+}
