@@ -10,9 +10,9 @@ const MainContent = ({title, desc, descLink, backgroundImg, leftBtnTxt, leftBtnL
             <div className="content__container">
                 <div className="textfield">
                     <p>{title}</p>
-                    <div className="item__description" >
-                        <p>{desc}</p>
-                    </div>
+                </div>
+                <div className="item__description" >
+                    <p>{desc}</p>
                 </div>
                 <div className="content__footer">
                     <div className="content__buttons">

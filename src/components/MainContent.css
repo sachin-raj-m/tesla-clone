@@ -4,8 +4,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    display: grid;
     justify-content: center;
+    scroll-snap-align: start;
 }
 
 .content__container {
@@ -13,7 +14,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .textfield {
@@ -26,19 +26,15 @@
 .item__description {
     font-size: 15px;
     display: block;
+    padding-top: -20px;
 }
 
 .content__footer {
-    margin-top: 73%;
+    margin-top: 63%;
     display: flex;
     flex-direction: column;
-
 }
 
 .content__buttons {
     display: flex;
 }
-
-
-
-
